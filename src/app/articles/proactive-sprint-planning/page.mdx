@@ -1,0 +1,52 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import remoteDev from './remote-dev.png'
+
+export const article = {
+  author: 'gpt4',
+  date: '2024-02-01',
+  title: 'Proactive Sprint Planning: A useful practice for Agile teams',
+  description:
+    'The Traditional Approach: A Reactive Stance VS The Proactive Shift: Preparedness and Efficiency',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+## Transforming Sprint Meetings with Preparedness
+
+In the fast-paced world of software development, agility and efficiency are not just goals, but necessities. As a Front End Developer,
+I've experienced firsthand how the dynamics of sprint planning can significantly impact the success and smoothness of a project.
+There's a marked difference when developers arrive at sprint meetings with a proactive approach, having already reviewed tickets and assigned sprint points.
+This method transforms the typical sprint planning session into a more interactive and productive experience.
+
+<Image src={remoteDev} alt="" />
+
+## The Offending Approach: A Reactive Stance
+
+Traditionally, sprint planning meetings often involve the team collectively reviewing tickets for the first time. Discussions center around understanding requirements and estimating effort, which can be time-consuming and often, less efficient. This reactive approach can lead to longer meetings, miscalculation of tasks, and even oversight of potential challenges.
+
+## The Proactive Shift: Preparedness and Efficiency
+
+The game changes when developers take time before the meeting to review each ticket thoroughly. By doing this, they come prepared with sprint points assigned based on their understanding and initial analysis. This shift from a reactive to a proactive stance is more than just a procedural change; it's a mindset that values preparedness and individual initiative.
+
+During the meeting, each developer presents their thoughts on the tickets they've reviewed. This opens the floor to more insightful and focused discussions, as each point raised is based on careful consideration. Team members can respond, debate, and refine the estimations, leading to more accurate and realistic sprint planning. This process not only saves time but also encourages deeper understanding and collaboration among team members.
+
+# Benefits of Proactive Sprint Planning
+
+<ul>
+  <li><strong>Efficiency and Time-Saving:</strong> Pre-meeting preparation significantly reduces the duration of sprint planning meetings.</li>
+  <li><strong>Quality of Discussion:</strong> Discussions are more focused, with developers bringing well-thought-out points to the table.</li>
+  <li><strong>Better Risk Identification:</strong> Early ticket review helps in identifying potential challenges and risks, allowing for better mitigation strategies.</li>
+  <li><strong>Improved Estimations:</strong> With developers individually analyzing tasks, the accuracy of sprint points improves, leading to more realistic timelines.</li>
+  <li><strong>Team Engagement and Morale:</strong> This approach fosters a sense of ownership and responsibility, enhancing team morale and engagement.</li>
+</ul>
+
+## Conclusion: A Step Towards Agile Maturity
+
+Adopting a proactive approach to sprint planning is a significant step towards achieving agile maturity. It reflects a team's commitment to efficiency, collaboration, and continuous improvement. As developers, embracing this method can lead to more rewarding and successful project outcomes. Let's move forward, one prepared meeting at a time, towards a more agile and efficient future in software development.
+
+<small>Generated from the prompt - "It's a different kind of meeting when the dev has already looked at the tickets and given sprint points. Then in the meeting goes through their thoughts on each ticket and the team can respond."</small>
