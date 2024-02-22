@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+// import Background from '@/components/Background'
 
 export function MainLayout({ children }) {
     const pathname = usePathname();
@@ -24,6 +25,7 @@ export function MainLayout({ children }) {
             </div>
             <div className="relative flex w-full flex-col">
                 {showLegacyComponents && <Header />}
+                {/*<Background />*/}
                 <main className="flex-auto">{children}</main>
                 {showLegacyComponents && <Footer />}
             </div>
