@@ -5,14 +5,12 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
     title: {
-        template: '%s - David Sampson',
+        template: 'Technotes - %s',
         default:
-            'Home - David Sampson, Professional Software Programmer, JavaScript Junkie, Web Design Enthusiast.',
+            'Technotes - Home',
     },
     description:
-        '  I’m David, a software engineer and enthusiast based in South Africa. I specialize in building web apps,\n' +
-        '  attending standups, and pushing to Git. I’m currently working in a full-stack\n' +
-        '  capacity on a tRPC monorepo, which utilizes, among other tools, Node.js, Nx, React.js, and, controversially, TypeScript.\n',
+        'just some public note taking, nothing to see here.\n',
     alternates: {
         types: {
             'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

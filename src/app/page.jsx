@@ -164,25 +164,25 @@ function Resume() {
   let resume = [
     {
       company: 'Software Engineer (Team, Hybrid)',
-      title: 'Real Estate Management App',
+      // title: 'Real Estate Management App',
       start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
-    {
-      company: 'Lead React Developer (Team, Remote)',
-      title: 'Insurance Business Management App',
-      start: '2022',
-      end: '2022',
-    },
-    {
-      company: 'React Developer (Client, Remote)',
-      title: 'Landing Page / Smart Site',
-      start: '2022',
-      end: '2022',
-    },
+    // {
+    //   company: 'Lead React Developer (Team, Remote)',
+    //   title: 'Insurance Business Management App',
+    //   start: '2022',
+    //   end: '2023',
+    // },
+    // {
+    //   company: 'React Developer (Client, Remote)',
+    //   title: 'Landing Page / Smart Site',
+    //   start: '2022',
+    //   end: '2022',
+    // },
     {
       company: 'React Developer (Solo, Remote)',
       title: 'Agritech Management App',
@@ -191,7 +191,7 @@ function Resume() {
     },
     {
       company: 'Junior Software Developer (Team, In Office)',
-      title: 'Healthcare Quality Improvement App',
+      title: `Healthcare Quality Improvement App,\nPrinting Services Management App`,
       start: '2020',
       end: '2022',
     },
@@ -255,7 +255,7 @@ export default async function Home() {
         <Container className="mt-9">
           <div className="max-w-1xl">
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              by David Sampson & tools
+              by David Sampson with great tools
             </p>
             <div className="mt-6 flex gap-6">
               <SocialLink
