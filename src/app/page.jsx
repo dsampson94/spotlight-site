@@ -1,16 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import clsx from 'clsx';
 
 import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import { Container } from '@/components/Container';
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons';
-import image1 from '@/images/photos/image-1.jpg';
-import image2 from '@/images/photos/image-2.jpg';
-import image3 from '@/images/photos/image-3.jpg';
-import image4 from '@/images/photos/image-4.jpg';
-import image5 from '@/images/photos/image-5.jpg';
 import { getAllArticles } from '@/lib/articles';
 import { formatDate } from '@/lib/formatDate';
 
@@ -110,25 +103,22 @@ function Resume() {
     let resume = [
         {
             company: 'Software Engineer (Team, Hybrid)',
-            // title: 'Real Estate Management App',
+            title: 'Real Estate Management App',
             start: '2023',
-            end: {
-                label: 'Present',
-                dateTime: new Date().getFullYear().toString()
-            }
+            end: '2023'
         },
-        // {
-        //   company: 'Lead React Developer (Team, Remote)',
-        //   title: 'Insurance Business Management App',
-        //   start: '2022',
-        //   end: '2023',
-        // },
-        // {
-        //   company: 'React Developer (Client, Remote)',
-        //   title: 'Landing Page / Smart Site',
-        //   start: '2022',
-        //   end: '2022',
-        // },
+        {
+            company: 'Lead React Developer (Team, Remote)',
+            title: 'Insurance Business Management App',
+            start: '2022',
+            end: '2023'
+        },
+        {
+            company: 'React Developer (Client, Remote)',
+            title: 'Landing Page / Smart Site',
+            start: '2022',
+            end: '2022'
+        },
         {
             company: 'React Developer (Solo, Remote)',
             title: 'Agritech Management App',

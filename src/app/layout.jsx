@@ -9,8 +9,7 @@ export const metadata = {
         default:
             'Tech Notes - Home',
     },
-    description:
-        'just some public note taking, nothing to see here.\n',
+    description: '%s',
     alternates: {
         types: {
             'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

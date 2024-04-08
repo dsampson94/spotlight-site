@@ -3,6 +3,7 @@ import React from 'react';
 
 export const metadata = {
     title: 'David Sampson - CV',
+    description: "Updated Web CV as of 04/2024"
 }
 
 export default function CV() {
