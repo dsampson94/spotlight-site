@@ -6,7 +6,6 @@ export const metadata = {
     description: 'Updated Web CV as of 04/2024'
 }
 
-
 export default function CV() {
     return (
         <div
@@ -20,7 +19,8 @@ export default function CV() {
                         <div>
                             <div className="flex flex-col items-center">
                                 <div className="w-32 h-32 mb-4">
-                                    <img src="/headshot.jpg" alt="David Sampson"
+                                    <img src="/headshot.jpg"
+                                         alt="David Sampson"
                                          className="w-32 h-32 rounded-full object-cover border-4 border-gray-600 mb-4 shadow-xl" />
                                 </div>
                                 <h1 className="text-4xl font-bold mb-2">David Sampson</h1>
@@ -123,12 +123,12 @@ export default function CV() {
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-yellow-400 px-3 py-1 rounded-md mb-1">
-                                        Agile Project Management, Github
-                                        CI/CD
+                                        Technical Analysis & Leadership
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-orange-400 px-3 py-1 rounded-md mb-1">
-                                        Technical Analysis & Leadership
+                                        Agile Project Management, Github
+                                        CI/CD
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-red-400 px-3 py-1 rounded-md">Comprehensive
@@ -180,23 +180,23 @@ export default function CV() {
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>
                                         <strong>Full Stack Software Engineer</strong>
-                                        <div>Jul. 2023- Apr. 2024 (Full-time)</div>
+                                        <div>Jul. 2023- Apr. 2024 (Full-time, Hybrid, Team)</div>
                                     </li>
                                     <li>
                                         <strong>Lead React Developer</strong>
-                                        <div>Apr. 2022- Jul. 2023 (Full-time)</div>
+                                        <div>Apr. 2022- Jul. 2023 (Full-time, Remote, Solo)</div>
                                     </li>
                                     <li>
                                         <strong>Junior Software Developer</strong>
-                                        <div>Apr. 2021- Apr. 2022</div>
+                                        <div>Apr. 2021- Apr. 2022 (Full-time, Office, Team)</div>
                                     </li>
                                     <li>
                                         <strong>Creative Partner</strong>
-                                        <div>Jan. 2019 - Current (Freelance)</div>
+                                        <div>Jan. 2019 - Dec. 2023 (Freelance)</div>
                                     </li>
                                     <li>
                                         <strong>Managing Partner</strong>
-                                        <div>Jan. 2018 - Dec.2019 (Full-time)</div>
+                                        <div>Jan. 2018 - Dec. 2019 (Full-time)</div>
                                     </li>
                                     <li>
                                         <strong>Computer & English Teacher</strong>
@@ -211,19 +211,15 @@ export default function CV() {
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>
                                         <strong>Java Web Programming</strong>
-                                        <div className="ml-1">Van Zyl & Pritchard</div>
-                                        <div className="ml-1">Sept. 2020 - Mar. 2021</div>
+                                        <div>Van Zyl & Pritchard - Sept. 2020 - Mar. 2021</div>
                                     </li>
                                     <li>
                                         <strong>Bachelors Degree (Commerce)</strong>
-                                        <div className="ml-1">University of Pretoria</div>
-                                        <div className="ml-1">Jan. 2012 - Dec. 2016</div>
-
+                                        <div>University of Pretoria - Jan. 2013 - Dec. 2016</div>
                                     </li>
                                     <li>
                                         <strong>Matric Certificate</strong>
-                                        <div className="ml-1">Marist Brothers College</div>
-                                        <div className="ml-1">Dec 2012</div>
+                                        <div>Marist Brothers College - Dec 2012</div>
                                     </li>
                                 </ul>
                             </div>
@@ -235,11 +231,11 @@ export default function CV() {
                                     <li>UI programming & API design.</li>
                                     <li>Browser and mobile technology.</li>
                                     <li>Professional development.</li>
-                                    <li>Attaining agile maturity</li>
+                                    <li>Attaining agile maturity.</li>
                                     <li>Data visualisation with D3.js.</li>
                                     <li>Remote work arrangement.</li>
-                                    <li>Flexible hours / WL balance</li>
-                                    <li>Workplace trust & understanding</li>
+                                    <li>Flexible hours / WL balance.</li>
+                                    <li>Workplace trust & understanding.</li>
                                 </ul>
                             </div>
                         </div>
