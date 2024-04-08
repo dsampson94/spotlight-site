@@ -6,6 +6,7 @@ export const metadata = {
     description: 'Updated Web CV as of 04/2024'
 }
 
+
 export default function CV() {
     return (
         <div
