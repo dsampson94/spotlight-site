@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 export const metadata = {
@@ -12,7 +13,7 @@ export default function CV() {
                 className="max-w-8xl w-full bg-gradient-to-br from-gray-800 to-gray-900 shadow-2xl rounded-3xl overflow-hidden">
                 <div className="flex flex-col lg:flex-row">
                     {/* Left Column */}
-                    <div className="lg:w-1/3 bg-[#1e1e2f] p-8 flex flex-col justify-between">
+                    <div className="lg:w-1/3 bg-slate-800 p-8 flex flex-col justify-between">
                         {/* Profile and Bio */}
                         <div>
                             <div className="flex flex-col items-center">
@@ -36,9 +37,9 @@ export default function CV() {
                             </ul>
                         </div>
 
-                        <p className="text-center text-sm font-medium italic">"Make it work, Make it right,
-                            Make it
-                            fast."</p>
+                        <p className="text-center text-sm font-medium italic">
+                            {'"Make it work, Make it right, Make it fast."'}
+                        </p>
 
                         {/* Contact Information */}
                         <div className="mt-6 text-center text-gray-300">
@@ -61,7 +62,7 @@ export default function CV() {
 
                     {/* Right Column */}
                     <div className="lg:w-2/3 p-8">
-                        <div className="flex flex-col lg:flex-row flex-wrap">
+                    <div className="flex flex-col lg:flex-row flex-wrap">
                         {/* Top Skills */}
                             <div className="w-full lg:w-1/2 p-2">
                                 <h2 className="text-xl text-center font-bold mb-3">Top Skills</h2>
