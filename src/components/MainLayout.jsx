@@ -4,17 +4,15 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-// import Background from '@/components/Background'
 
 export function MainLayout({ children }) {
     const pathname = usePathname();
-    const [showCVComponents, setShowCVComponents] = useState(true);
+    const initialShowCV = !pathname.includes('cv');
+    const [showCVComponents, setShowCVComponents] = useState(initialShowCV);
 
     useEffect(() => {
-        const isCV = pathname.includes('cv');
-        setShowCVComponents(!isCV);
-    }, [pathname]);
-
+        setShowCVComponents(initialShowCV);
+    }, [pathname, initialShowCV]);
 
     return (
         <>
@@ -25,7 +23,6 @@ export function MainLayout({ children }) {
             </div>
             <div className="relative flex w-full flex-col">
                 {showCVComponents && <Header />}
-                {/*<Background />*/}
                 <main className="flex-auto">{children}</main>
                 {showCVComponents && <Footer />}
             </div>
