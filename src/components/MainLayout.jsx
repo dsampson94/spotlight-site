@@ -8,11 +8,11 @@ import { Header } from '@/components/Header';
 
 export function MainLayout({ children }) {
     const pathname = usePathname();
-    const [showLegacyComponents, setShowLegacyComponents] = useState(true);
+    const [showCVComponents, setShowCVComponents] = useState(true);
 
     useEffect(() => {
-        const isLegacy = pathname.includes('legacy');
-        setShowLegacyComponents(!isLegacy);
+        const isCV = pathname.includes('cv');
+        setShowCVComponents(!isCV);
     }, [pathname]);
 
 
@@ -24,10 +24,10 @@ export function MainLayout({ children }) {
                 </div>
             </div>
             <div className="relative flex w-full flex-col">
-                {showLegacyComponents && <Header />}
+                {showCVComponents && <Header />}
                 {/*<Background />*/}
                 <main className="flex-auto">{children}</main>
-                {showLegacyComponents && <Footer />}
+                {showCVComponents && <Footer />}
             </div>
         </>
     );

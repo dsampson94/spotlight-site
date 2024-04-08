@@ -1,9 +1,6 @@
 // @ts-nocheck
-import headshot from './headshot.jpg';
-
 
 export default function LegacyCV() {
-    const imageSrc = '/images/headshot.jpg';
     const cvHTML = {
         __html: `
 <!DOCTYPE html>
@@ -24,7 +21,7 @@ export default function LegacyCV() {
 
                         <div class="content__left__container__upper">
                             <div class="content__left__container__upper-photo">
-                                <img style='object-fit: contain' src="${imageSrc}"  alt="d"/>
+                                <img style='object-fit: cover' src="/headshot.jpg" alt="d"/>
                             </div>
                             <div class="content__left__container__upper__info">
                                 <h1 class="content__left__container__upper__info-title">David Sampson</h1>
