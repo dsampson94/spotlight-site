@@ -3,16 +3,16 @@ import React from 'react';
 
 export const metadata = {
     title: 'David Sampson - CV',
-    description: "Updated Web CV as of 04/2024"
+    description: 'Updated Web CV as of 04/2024'
 }
 
 export default function CV() {
     return (
         <div
-            className="bg-[#0b0c14] text-white font-montserrat min-h-screen flex items-center justify-center p-10 antialiased">
+            className="bg-slate-700 text-white font-montserrat min-h-screen flex items-center justify-center px-1 py-1 antialiased sm:p-8">
             <div
                 className="max-w-8xl w-full bg-gradient-to-br from-gray-800 to-gray-900 shadow-2xl rounded-3xl overflow-hidden">
-                <div className="flex flex-col lg:flex-row">
+                <div className="flex flex-col lg:flex-row shadow-2xl">
                     {/* Left Column */}
                     <div className="lg:w-1/3 bg-slate-800 p-8 flex flex-col justify-between">
                         {/* Profile and Bio */}
@@ -26,7 +26,7 @@ export default function CV() {
                                 <h2 className="text-xl text-gray-200 mb-4">Full Stack JavaScript Engineer</h2>
                             </div>
 
-                            <ul className="text-center text-sm text-gray-300 list-none space-y-2">
+                            <ul className="text-center text-xs sm:text-sm text-gray-300 list-none space-y-2">
                                 <li>Strong React.js, CSS & React Native experience.</li>
                                 <li>Trained in Java, passionate about JavaScript.</li>
                                 <li>Solid experience with git, merge master.</li>
@@ -38,7 +38,7 @@ export default function CV() {
                             </ul>
                         </div>
 
-                        <p className="text-center text-sm font-medium italic">
+                        <p className="pt-6 text-center text-sm font-medium italic sm:pt-0 sm:pb-8">
                             {'"Make it work, Make it right, Make it fast."'}
                         </p>
 
@@ -63,8 +63,8 @@ export default function CV() {
 
                     {/* Right Column */}
                     <div className="lg:w-2/3 p-8">
-                    <div className="flex flex-col lg:flex-row flex-wrap">
-                        {/* Top Skills */}
+                        <div className="flex flex-col lg:flex-row flex-wrap">
+                            {/* Top Skills */}
                             <div className="w-full lg:w-1/2 p-2">
                                 <h2 className="text-xl text-center font-bold mb-3">Top Skills</h2>
                                 <div className="mb-2">
@@ -205,9 +205,9 @@ export default function CV() {
                             </div>
 
                             {/* Education */}
-                            <div className="w-full lg:w-1/2 p-4">
+                            <div className="w-full lg:w-1/2 p-2">
                                 <h3 className="text-lg text-center font-bold mb-3">Education</h3>
-                                <ul className="list-disc text-sm text-gray-300 pl-5">
+                                <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>
                                         <strong>Java Web Programming</strong>
                                         <div className="ml-1">Van Zyl & Pritchard</div>
@@ -228,9 +228,9 @@ export default function CV() {
                             </div>
 
                             {/* Professional Interests */}
-                            <div className="w-full lg:w-1/2 p-4">
+                            <div className="w-full lg:w-1/2 p-2">
                                 <h3 className="text-lg text-center font-bold mb-3">Professional Interests</h3>
-                                <ul className="list-disc text-sm text-gray-300">
+                                <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>UI programming & API design.</li>
                                     <li>Browser and mobile technology.</li>
                                     <li>Professional development.</li>
