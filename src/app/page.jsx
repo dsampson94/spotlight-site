@@ -150,7 +150,7 @@ function Resume() {
                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
             <Button href="/David-Sampson-CV.pdf" download="David Sampson - CV.pdf" variant="secondary" className="group mt-6 w-full">
-                Download CV PDF
+                View CV PDF
                 <ArrowDownIcon
                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
