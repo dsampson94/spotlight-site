@@ -154,21 +154,21 @@ function Resume() {
                     <Role key={ roleIndex } role={ role } />
                 )) }
             </ol>
-            <Button href="#" variant="secondary" className="group mt-6 w-full">
-                Download CV
-                <ArrowDownIcon
-                    className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-            </Button>
             <Button href={ '/cv' } target="_blank" variant="secondary" className="group mt-6 w-full">
-                View Updated Web CV
+                View Web CV
                 <ArrowDownIcon
                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
-            <Button href={ '/legacy-cv' } target="_blank" variant="secondary" className="group mt-6 w-full">
-                View Legacy Web CV
+            <Button href="/David-Sampson-CV.pdf" download="David Sampson - CV.pdf" variant="secondary" className="group mt-6 w-full">
+                Download CV PDF
                 <ArrowDownIcon
                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
+            {/*<Button href={ '/legacy-cv' } target="_blank" variant="secondary" className="group mt-6 w-full">*/ }
+            {/*    View Legacy Web CV*/ }
+            {/*    <ArrowDownIcon*/ }
+            {/*        className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />*/ }
+            {/*</Button>*/ }
         </div>
     );
 }
