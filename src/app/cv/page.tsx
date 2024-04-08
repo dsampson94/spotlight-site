@@ -9,7 +9,7 @@ export const metadata = {
 export default function CV() {
     return (
         <div
-            className="bg-slate-700 text-white font-montserrat min-h-screen flex items-center justify-center px-1 py-1 antialiased sm:p-8">
+            className="bg-slate-700 text-white font-montserrat min-h-screen flex items-center justify-center px-1 py-1 antialiased sm:p-4">
             <div
                 className="max-w-8xl w-full bg-gradient-to-br from-gray-800 to-gray-900 shadow-2xl rounded-3xl overflow-hidden">
                 <div className="flex flex-col lg:flex-row shadow-2xl">
