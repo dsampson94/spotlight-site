@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className="h-full antialiased" suppressHydrationWarning>
         <Head>
-            <meta property="og:image" content={ 'https://technotes.site/public/headshot.jpg' } />
+            <meta property="og:image" content="/headshot.jpg" />
             <meta property="og:type" content="website" />
         </Head>
         <body className="flex h-full bg-zinc-50 dark:bg-black">
