@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import { Providers } from '@/app/providers';
 import { MainLayout } from '@/components/MainLayout';
 
@@ -12,6 +10,7 @@ export const metadata = {
             'Tech Notes - Home'
     },
     description: '%s',
+    ogImage: '',
     alternates: {
         types: {
             'application/rss+xml': `${ process.env.NEXT_PUBLIC_SITE_URL }/feed.xml`
@@ -22,10 +21,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-        <Head>
-            <meta property="og:image" content="" />
-            <meta property="og:type" content="website" />
-        </Head>
         <body className="flex h-full bg-zinc-50 dark:bg-black">
         <Providers>
             <div className="flex w-full">
