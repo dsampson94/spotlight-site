@@ -102,7 +102,7 @@ function Role({ role }) {
 function Resume() {
     let resume = [
         {
-            company: 'Software Engineer (Team, Hybrid)',
+            company: 'Full Stack Software Engineer (Team, Hybrid)',
             title: 'Real Estate Management App',
             start: '2023',
             end: '2023'
@@ -137,7 +137,7 @@ function Resume() {
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
             <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                 <BriefcaseIcon className="h-6 w-6 flex-none" />
-                <span className="ml-3">Professional Background (As of 01/2024)</span>
+                <span className="ml-3">Professional Background (As of 04/2024)</span>
             </h2>
             <ol className="mt-6 space-y-4">
                 { resume.map((role, roleIndex) => (
@@ -164,7 +164,7 @@ function Resume() {
 }
 
 export default async function Home() {
-    let articles = (await getAllArticles()).slice(0, 4);
+    let articles = (await getAllArticles()).slice(0, 10).reverse();
 
     return (
         <>
@@ -189,7 +189,6 @@ export default async function Home() {
                     </div>
                 </div>
             </Container>
-            {/*<Photos />*/ }
             <Container className="mt-24 md:mt-28">
                 <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
                     <div className="flex flex-col gap-16">
@@ -198,7 +197,6 @@ export default async function Home() {
                         )) }
                     </div>
                     <div className="space-y-10 lg:pl-16 xl:pl-24">
-                        {/*<Newsletter />*/ }
                         <Resume />
                     </div>
                 </div>

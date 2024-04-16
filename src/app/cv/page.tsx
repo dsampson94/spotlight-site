@@ -40,7 +40,7 @@ export default function CV() {
                         </div>
 
                         <p className="pt-6 text-center text-sm font-medium italic sm:pt-0 sm:pb-8">
-                            {'"Make it work, Make it right, Make it fast."'}
+                            {'"Make it work, make it right, make it fast."'}
                         </p>
 
                         {/* Contact Information */}
@@ -100,14 +100,13 @@ export default function CV() {
                                 </div>
                             </div>
 
-
                             {/* Core Competencies */}
                             <div className="w-full lg:w-1/2 p-2">
                                 <h2 className="text-xl text-center font-bold mb-3">Core Competencies</h2>
                                 <div className="mb-2">
                                     <div
                                         className="text-black text-center font-bold bg-purple-400 px-3 py-1 rounded-md mb-1">Frontend
-                                        Design & Development
+                                        Web Design & Development
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-indigo-400 px-3 py-1 rounded-md mb-1">
@@ -138,69 +137,179 @@ export default function CV() {
                                 </div>
                             </div>
 
-                            {/* Past Project Highlights */}
-                            <div className="w-full lg:w-1/2 p-2">
-                                <h3 className="text-lg text-center font-bold mb-3">Past Project Highlights</h3>
-                                <ul className="list-disc text-sm text-gray-300 pl-5">
-                                    <li>
-                                        <strong>Asset Manager/Tracker Web App (Property)</strong>
-                                        <div className="ml-1">React/TS, Prisma, tRPC, Antd, Styled Components, AWS</div>
-                                    </li>
-                                    <li>
-                                        <strong>Business Manager/Tracker Web Front End (Insurance)</strong>
-                                        <div className="ml-1">React/TS, Redux Sagas, MUI, Azure</div>
-                                    </li>
-                                    <li>
-                                        <strong>Productivity Manager/Tracker Web Front End (Agritech)</strong>
-                                        <div className="ml-1">React/JS, Redux Sagas, SCSS & Tailwind, D3.js
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <strong>Customer Relations Manager Web Front End (Printing)</strong>
-                                        <div className="ml-1">React/JS, Redux & Sagas, SCSS, RTL & Jest</div>
-                                    </li>
-                                    <li>
-                                        <strong>Quality Improvement Tracker Web App (Healthcare)</strong>
-                                        <div className="ml-1">React/JS, CSS, Java, Spring, Azure</div>
-                                    </li>
-                                    <li>
-                                        <strong>Quality Improvement Tracker Mobile App (Healthcare)</strong>
-                                        <div className="ml-1">React Native/JS, CSS, Java, Spring, Azure</div>
-                                    </li>
-                                    <li>
-                                        <strong>Online Shop & Inventory Management Web App</strong>
-                                        <div className="ml-1">Java, JSP, CSS, HTML, HTTP Servlet, SQL</div>
-                                    </li>
-                                </ul>
-                            </div>
-
                             {/* Work Experience */}
-                            <div className="w-full lg:w-1/2 p-2">
-                                <h3 className="text-lg text-center font-bold mb-3">Work Experience</h3>
+                            <div className="w-full p-2">
+                                <h3 className="text-lg text-center font-bold mb-3">Relevant Work Experience</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
+                                    {/* Software Engineer, Open Vantage */}
                                     <li>
-                                        <strong>Full Stack Software Engineer</strong>
-                                        <div>Jul. 2023- Apr. 2024 (Full-time, Hybrid, Team)</div>
+                                        <a href="https://www.openvantage.co.za" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                            <strong style={{ textDecoration: 'underline' }}>Software Engineer - Open
+                                                Vantage</strong>
+                                        </a>
+                                        <div>- July 2023 - April 2024 (Full-time, Hybrid, South Africa)</div>
+                                        <br />
+                                        <div>Projects:<br />- Asset Manager/Tracker Web App (Property):
+                                            React/TS, Prisma, tRPC, Antd, Styled Components, AWS
+                                        </div>
+                                        <br />
+                                        <div>Duties:
+                                            <ul>
+                                                <li>- Web frontend inception and creation built with React.js, tRPC,
+                                                    TypeScript, and much more.
+                                                </li>
+                                                <li>- Web frontend setup on AWS using S3, weekly deployment duties and
+                                                    assistance.
+                                                </li>
+                                                <li>- Daily standup attendance, client meetings, internal meetings, and
+                                                    daily project development.
+                                                </li>
+                                                <li>- Agile daily implementation for project management and employed
+                                                    GitHub CI/CD for efficient deployments.
+                                                </li>
+                                                <li>- Worked extensively with git for version control and collaborated
+                                                    across teams to enhance code quality.
+                                                </li>
+                                                <li>- Delivered ongoing technical guidance to the designer and project
+                                                    manager.
+                                                </li>
+                                                <li>- Daily API integration and frontend architecture implementation.
+                                                </li>
+                                                <li>- Contributed to code reviews and reinforced understanding of best
+                                                    practices in software development.
+                                                </li>
+                                                <li>- Supporting role assisting backend development using tRPC and
+                                                    Prisma.
+                                                </li>
+                                                <li>- Time tracking and ticket management using ClickUp.</li>
+                                                <li>- Benefited from regular upskilling and mentorship.</li>
+                                            </ul>
+                                        </div>
+                                        <br />
+                                        <div>Outcome:<br />- Resigned due to project viability and
+                                            management
+                                            concerns.
+                                        </div>
+                                        <br />
                                     </li>
+                                    {/* Lead React Developer, Cinque */}
                                     <li>
-                                        <strong>Lead React Developer</strong>
-                                        <div>Apr. 2022- Jul. 2023 (Full-time, Remote, Solo)</div>
+                                        <a href="https://www.cinque.co.za" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                            <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
+                                                Cinque</strong>
+                                        </a>
+                                        <div>- July 2022 - April 2024 (Part-time, Freelance, South Africa, Remote)</div>
+                                        <br />
+                                        <div>Projects:<br />- Business Manager/Tracker Web Front End
+                                            (Insurance): React/TS, Redux Sagas, MUI, Azure
+                                        </div>
+                                        <br />
+                                        <div>Duties:
+                                            <ul>
+                                                <li>- Project rescue and intervention.</li>
+                                                <li>- Daily API integration and frontend architecture implementation.
+                                                </li>
+                                                <li>- Worked extensively with git for version control, merge master.
+                                                </li>
+                                                <li>- Weekly standup attendance and daily project development.</li>
+                                            </ul>
+                                        </div>
+                                        <br />
+                                        <div>Outcome:<br />- Project completion.</div>
+                                        <br />
                                     </li>
+                                    {/* Lead React Developer, IrriCheck */}
                                     <li>
-                                        <strong>Junior Software Developer</strong>
-                                        <div>Apr. 2021- Apr. 2022 (Full-time, Office, Team)</div>
+                                        <a href="https://www.irricheck.co.za/" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                            <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
+                                                IrriCheck</strong>
+                                        </a>
+                                        <div>- April 2022 - July 2023 (Full-time, Remote, South Africa)</div>
+                                        <br />
+                                        <div>Projects:<br />- Productivity Manager/Tracker Web Front End
+                                            (Agritech): React/JS, Redux Sagas, SCSS & Tailwind, D3.js
+                                        </div>
+                                        <br />
+                                        <div>Duties:
+                                            <ul>
+                                                <li>- Web frontend inception and creation using React.js, Redux Saga,
+                                                    and
+                                                    d3.js.
+                                                </li>
+                                                <li>- Daily API integration and frontend architecture implementation.
+                                                </li>
+                                                <li>- Daily project development and meeting attendance.</li>
+                                                <li>- Employed d3.js to develop extensive moisture tracking data
+                                                    visualization screens.
+                                                </li>
+                                                <li>- Total ownership of the solution.</li>
+                                            </ul>
+                                        </div>
+                                        <br />
+                                        <div>Outcome:<br />- Handover to new dev was successful.
+                                            <br />- Resigned to
+                                            take a role with more teamwork and collaboration.
+                                        </div>
+                                        <br />
                                     </li>
+                                    {/* Junior Software Developer, VZAP | Van Zyl & Pritchard */}
                                     <li>
-                                        <strong>Creative Partner</strong>
-                                        <div>Jan. 2019 - Dec. 2023 (Freelance)</div>
-                                    </li>
-                                    <li>
-                                        <strong>Managing Partner</strong>
-                                        <div>Jan. 2018 - Dec. 2019 (Full-time)</div>
-                                    </li>
-                                    <li>
-                                        <strong>Computer & English Teacher</strong>
-                                        <div>Apr. 2017 - Dec. 2017 (Full-time)</div>
+                                        <a href="http://sfy.co.za/" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                            <strong style={{ textDecoration: 'underline' }}>Junior Software Developer -
+                                                VZAP | Van Zyl & Pritchard (Software For You)</strong>
+                                        </a>
+                                        <div>- April 2021 - April 2022 (Full-time, On-site, City of Johannesburg,
+                                            Gauteng, South Africa)
+                                        </div>
+                                        <br />
+                                        <div>Projects:
+                                            <ul>
+                                                <li>- Customer Relations Manager Web Front End (Printing): React/JS,
+                                                    Redux
+                                                    & Sagas, SCSS, RTL & Jest
+                                                </li>
+                                                <li>- Quality Improvement Tracker Web App (Healthcare): React/JS, CSS,
+                                                    Java, Spring, Azure
+                                                </li>
+                                                <li>- Quality Improvement Tracker Mobile App (Healthcare): React
+                                                    Native/JS, CSS, Java, Spring, Azure
+                                                </li>
+                                                <li>- Online Shop & Inventory Management Web App: Java, JSP, CSS, HTML,
+                                                    HTTP Servlet, SQL
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <br />
+                                        <div>Duties:
+                                            <ul>
+                                                <li>- Web frontend inception and creation using React.js and more.</li>
+                                                <li>- Daily mobile development with React Native.</li>
+                                                <li>- Daily API integration and frontend architecture implementation.
+                                                </li>
+                                                <li>- Worked extensively with git (GitLab) for version control.</li>
+                                                <li>- Daily standup attendance, client meetings, internal meetings, and
+                                                    daily project development.
+                                                </li>
+                                                <li>- Contributed to code reviews and learned best practices in software
+                                                    development.
+                                                </li>
+                                                <li>- Java backend development support.</li>
+                                                <li>- Time tracking and ticket management using Azure.</li>
+                                                <li>- Benefited from regular upskilling and mentorship.</li>
+                                            </ul>
+                                        </div>
+                                        <br />
+                                        <div>Outcome:<br />- QIT Projects reached production and are
+                                            still in
+                                            use today.<br />- Resigned to take a role focusing on React.js and
+                                            become a
+                                            frontend specialist.
+                                        </div>
+                                        <br />
                                     </li>
                                 </ul>
                             </div>
@@ -210,8 +319,11 @@ export default function CV() {
                                 <h3 className="text-lg text-center font-bold mb-3">Education</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>
-                                        <strong>Java Web Programming</strong>
-                                        <div>Van Zyl & Pritchard - Sept. 2020 - Mar. 2021</div>
+                                        <strong>Java Web Programming</strong><br/>
+                                        <a href="https://www.vzap.co.za/" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                           Van Zyl & Pritchard - Sept. 2020 - Mar. 2021
+                                        </a>
                                     </li>
                                     <li>
                                         <strong>Bachelors Degree (Commerce)</strong>
