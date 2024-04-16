@@ -143,7 +143,8 @@ export default function CV() {
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     {/* Software Engineer, Open Vantage */}
                                     <li>
-                                        <a href="https://www.openvantage.co.za" target="_blank" rel="noopener noreferrer"
+                                        <a href="https://www.openvantage.co.za" target="_blank"
+                                           rel="noopener noreferrer"
                                            style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
                                             <strong style={{ textDecoration: 'underline' }}>Software Engineer - Open
                                                 Vantage</strong>
@@ -209,11 +210,11 @@ export default function CV() {
                                         <div>Duties:
                                             <ul>
                                                 <li>- Project rescue and intervention.</li>
-                                                <li>- Daily API integration and frontend architecture implementation.
+                                                <li>- API integration and frontend architecture implementation.
                                                 </li>
                                                 <li>- Worked extensively with git for version control, merge master.
                                                 </li>
-                                                <li>- Weekly standup attendance and daily project development.</li>
+                                                <li>- Standup attendance and project development.</li>
                                             </ul>
                                         </div>
                                         <br />
@@ -319,10 +320,10 @@ export default function CV() {
                                 <h3 className="text-lg text-center font-bold mb-3">Education</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     <li>
-                                        <strong>Java Web Programming</strong><br/>
+                                        <strong>Java Web Programming</strong><br />
                                         <a href="https://www.vzap.co.za/" target="_blank" rel="noopener noreferrer"
                                            style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                                           Van Zyl & Pritchard - Sept. 2020 - Mar. 2021
+                                            Van Zyl & Pritchard - Sept. 2020 - Mar. 2021
                                         </a>
                                     </li>
                                     <li>
