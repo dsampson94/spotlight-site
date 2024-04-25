@@ -1,5 +1,6 @@
 import { Providers } from '@/app/providers';
 import { MainLayout } from '@/components/MainLayout';
+import { Analytics } from '@vercel/analytics/react';
 
 import '@/styles/tailwind.css';
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
             </div>
         </Providers>
         </body>
+        <Analytics />
         </html>
     );
 }
