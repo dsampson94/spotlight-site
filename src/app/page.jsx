@@ -102,7 +102,7 @@ function Role({ role }) {
 function Resume() {
     let resume = [
         {
-            company: 'Full Stack Software Engineer (Team, Hybrid)',
+            company: 'Software Engineer (Team, Hybrid)',
             title: 'Real Estate Management App',
             start: '2023',
             end: '2023'

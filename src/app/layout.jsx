@@ -10,7 +10,6 @@ export const metadata = {
         default:
             'Tech Notes - Home'
     },
-    description: '%s',
     ogImage: '',
     alternates: {
         types: {
