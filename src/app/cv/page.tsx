@@ -214,7 +214,7 @@ export default function CV() {
                                             (Insurance)
                                         </div>
                                         <br />
-                                        <div>Tech Used:<br />-  React/TS, Redux Sagas, MUI, Azure DevOps, Git, D3.js, IntelliJ and more
+                                        <div>Tech Used:<br />-  React/TS, Redux Sagas, MUI, Azure DevOps, Git, D3.js, IntelliJ and more.
                                         </div>
                                         <br />
                                         <div>Duties:
@@ -244,7 +244,7 @@ export default function CV() {
                                             (Agritech)
                                         </div>
                                         <br />
-                                        <div>Tech Used:<br />-  React/JS, Redux Sagas, SCSS & Tailwind, D3.js, Git, IntelliJ and more
+                                        <div>Tech Used:<br />-  React/JS, Redux Sagas, SCSS & Tailwind, D3.js, Git, IntelliJ and more.
                                         </div>
                                         <br />
                                         <div>Duties:
