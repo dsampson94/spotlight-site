@@ -244,7 +244,7 @@ export default function CV() {
                                             (Agritech)
                                         </div>
                                         <br />
-                                        <div>Tech Used:<br />-  React/JS, Redux Sagas, SCSS & Tailwind, D3.js, Git, IntelliJ
+                                        <div>Tech Used:<br />-  React/JS, Redux Sagas, SCSS & Tailwind, D3.js, Git, IntelliJ and more
                                         </div>
                                         <br />
                                         <div>Duties:
