@@ -23,8 +23,8 @@ export default function CV() {
                                          alt="David Sampson"
                                          className="w-32 h-32 rounded-full object-cover border-4 border-gray-600 mb-4 shadow-xl" />
                                 </div>
-                                <h1 className="text-4xl font-bold mb-2">David Sampson</h1>
-                                <h2 className="text-xl font-bold text-gray-200 mb-4">Front End Engineer</h2>
+                                <h1 className="text-2xl font-bold mb-2">David Sampson</h1>
+                                <h2 className="text-3xl font-bold text-gray-200 mb-4">Front End Engineer</h2>
                             </div>
 
                             <ul className="text-center text-xs sm:text-sm text-gray-300 list-none space-y-2">
