@@ -24,7 +24,7 @@ export default function CV() {
                                          className="w-32 h-32 rounded-full object-cover border-4 border-gray-600 mb-4 shadow-xl" />
                                 </div>
                                 <h1 className="text-4xl font-bold mb-2">David Sampson</h1>
-                                <h2 className="text-xl text-gray-200 mb-4">Full Stack JavaScript Engineer</h2>
+                                <h2 className="text-xl font-bold text-gray-200 mb-4">Front End Engineer (React.js)</h2>
                             </div>
 
                             <ul className="text-center text-xs sm:text-sm text-gray-300 list-none space-y-2">
@@ -34,7 +34,7 @@ export default function CV() {
                                 <li>Team player, leader, learner, teacher.</li>
                                 <li>Appreciates code conventions.</li>
                                 <li>Learns daily, works smart.</li>
-                                <li>Wants to do more D3.</li>
+                                <li>Agile PM Enthusiast </li>
                                 <li>29 years old.</li>
                             </ul>
                         </div>
@@ -47,16 +47,20 @@ export default function CV() {
                         <div className="mt-6 text-center text-gray-300">
                             <h3 className="text-lg font-bold mb-3">Contact</h3>
                             <div className="mb-2">
-                                <a href="https://www.linkedin.com/in/dsampsondev/"
+                                <a href="https://github.com/dsampson94" target="_blank"
+                                   className="block hover:text-blue-400 transition-colors duration-300">Github</a>
+                            </div>
+                            <div className="mb-2">
+                                <a href="https://www.linkedin.com/in/dsampsondev/" target="_blank"
                                    className="block hover:text-blue-400 transition-colors duration-300">LinkedIn</a>
                             </div>
                             <div className="mb-2">
-                                <a href="tel:+27796949704"
+                                <a href="tel:+27796949704" target="_blank"
                                    className="block hover:text-blue-400 transition-colors duration-300">+27 79 694
                                     9704</a>
                             </div>
                             <div>
-                                <a href="mailto:davesampson15@gmail.com"
+                                <a href="mailto:davesampson15@gmail.com" target="_blank"
                                    className="block hover:text-blue-400 transition-colors duration-300">davesampson15@gmail.com</a>
                             </div>
                         </div>
@@ -122,7 +126,7 @@ export default function CV() {
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-yellow-400 px-3 py-1 rounded-md mb-1">
-                                        Technical Analysis & Leadership
+                                        Technical Analysis, Design & Leadership
                                     </div>
                                     <div
                                         className="text-black text-center font-bold bg-orange-400 px-3 py-1 rounded-md mb-1">
@@ -139,7 +143,7 @@ export default function CV() {
 
                             {/* Work Experience */}
                             <div className="w-full p-2">
-                                <h3 className="text-lg text-center font-bold mb-3">Relevant Work Experience</h3>
+                                <h3 className="text-lg text-center font-bold mb-3">Relevant Work Experience (4 years concurrent)</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     {/* Software Engineer, Open Vantage */}
                                     <li>
@@ -151,14 +155,17 @@ export default function CV() {
                                         </a>
                                         <div>- July 2023 - April 2024 (Full-time, Hybrid, South Africa)</div>
                                         <br />
-                                        <div>Projects:<br />- Asset Manager/Tracker Web App (Property):
-                                            React/TS, Prisma, tRPC, Antd, Styled Components, AWS
+                                        <div>Projects:<br />- Asset Manager/Tracker Web App (Property)
+                                        </div>
+                                        <br />
+                                        <div>Tech Used:<br />- React/TS, Prisma, tRPC, Antd, Styled Components, AWS,
+                                           Github, Git, IntelliJ and more
                                         </div>
                                         <br />
                                         <div>Duties:
                                             <ul>
-                                                <li>- Web frontend inception and creation built with React.js, tRPC,
-                                                    TypeScript, and much more.
+                                                <li>- Web frontend inception and creation with React.js,
+                                                    TypeScript and much more.
                                                 </li>
                                                 <li>- Web frontend setup on AWS using S3, weekly deployment duties and
                                                     assistance.
@@ -166,7 +173,7 @@ export default function CV() {
                                                 <li>- Daily standup attendance, client meetings, internal meetings, and
                                                     daily project development.
                                                 </li>
-                                                <li>- Agile daily implementation for project management and employed
+                                                <li>- Daily Agile implementation for project management with
                                                     GitHub CI/CD for efficient deployments.
                                                 </li>
                                                 <li>- Worked extensively with git for version control and collaborated
@@ -180,7 +187,7 @@ export default function CV() {
                                                 <li>- Contributed to code reviews and reinforced understanding of best
                                                     practices in software development.
                                                 </li>
-                                                <li>- Supporting role assisting backend development using tRPC and
+                                                <li>- Supporting role assisting backend development with GraphQL, tRPC, Postgres and
                                                     Prisma.
                                                 </li>
                                                 <li>- Time tracking and ticket management using ClickUp.</li>
@@ -201,20 +208,23 @@ export default function CV() {
                                             <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
                                                 Cinque</strong>
                                         </a>
-                                        <div>- July 2022 - April 2024 (Part-time, Freelance, South Africa, Remote)</div>
+                                        <div>- July 2022 - Dec 2023 (Part-time, Freelance, South Africa, Remote)</div>
                                         <br />
-                                        <div>Projects:<br />- Business Manager/Tracker Web Front End
-                                            (Insurance): React/TS, Redux Sagas, MUI, Azure
+                                        <div >Projects:<br />- Business Manager/Tracker Web Front End
+                                            (Insurance)
+                                        </div>
+                                        <br />
+                                        <div>Tech Used:<br />-  React/TS, Redux Sagas, MUI, Azure DevOps, Git, D3.js, IntelliJ and more
                                         </div>
                                         <br />
                                         <div>Duties:
                                             <ul>
-                                                <li>- Project rescue and intervention.</li>
-                                                <li>- API integration and frontend architecture implementation.
+                                                <li>- Successful project rescue and intervention.</li>
+                                                <li>- API integration, regular development and frontend architecture implementation.
                                                 </li>
                                                 <li>- Worked extensively with git for version control, merge master.
                                                 </li>
-                                                <li>- Standup attendance and project development.</li>
+                                                <li>- Irregular standup and client meeting attendance.</li>
                                             </ul>
                                         </div>
                                         <br />
@@ -231,7 +241,10 @@ export default function CV() {
                                         <div>- April 2022 - July 2023 (Full-time, Remote, South Africa)</div>
                                         <br />
                                         <div>Projects:<br />- Productivity Manager/Tracker Web Front End
-                                            (Agritech): React/JS, Redux Sagas, SCSS & Tailwind, D3.js
+                                            (Agritech)
+                                        </div>
+                                        <br />
+                                        <div>Tech Used:<br />-  React/JS, Redux Sagas, SCSS & Tailwind, D3.js, Git, IntelliJ
                                         </div>
                                         <br />
                                         <div>Duties:
@@ -242,7 +255,7 @@ export default function CV() {
                                                 </li>
                                                 <li>- Daily API integration and frontend architecture implementation.
                                                 </li>
-                                                <li>- Daily project development and meeting attendance.</li>
+                                                <li>- Daily project development and irregular meeting attendance.</li>
                                                 <li>- Employed d3.js to develop extensive moisture tracking data
                                                     visualization screens.
                                                 </li>
@@ -263,26 +276,26 @@ export default function CV() {
                                             <strong style={{ textDecoration: 'underline' }}>Junior Software Developer -
                                                 VZAP | Van Zyl & Pritchard (Software For You)</strong>
                                         </a>
-                                        <div>- April 2021 - April 2022 (Full-time, On-site, City of Johannesburg,
+                                        <div>- April 2021 - April 2022 (Full-time, On-site, Johannesburg,
                                             Gauteng, South Africa)
                                         </div>
                                         <br />
                                         <div>Projects:
                                             <ul>
-                                                <li>- Customer Relations Manager Web Front End (Printing): React/JS,
-                                                    Redux
-                                                    & Sagas, SCSS, RTL & Jest
+                                                <li>- Customer Relations Manager Web Front End (Printing)
                                                 </li>
-                                                <li>- Quality Improvement Tracker Web App (Healthcare): React/JS, CSS,
-                                                    Java, Spring, Azure
+                                                <li>- Quality Improvement Tracker Web App (Healthcare)
                                                 </li>
-                                                <li>- Quality Improvement Tracker Mobile App (Healthcare): React
-                                                    Native/JS, CSS, Java, Spring, Azure
+                                                <li>- Quality Improvement Tracker Mobile App (Healthcare)
                                                 </li>
-                                                <li>- Online Shop & Inventory Management Web App: Java, JSP, CSS, HTML,
-                                                    HTTP Servlet, SQL
+                                                <li>- Online Shop & Inventory Management Web App (Training)
                                                 </li>
                                             </ul>
+                                        </div>
+                                        <br />
+                                        <div>Tech Used:<br />- React/JS, React Native, CSS, Redux Sagas, SCSS,
+                                            RTL & Jest, Java, Spring, Azure, SQL, HTTP Servlet, JSP, HTML,
+                                            GitLab, Git, IntelliJ, Eclipse and more.
                                         </div>
                                         <br />
                                         <div>Duties:
@@ -308,7 +321,7 @@ export default function CV() {
                                             still in
                                             use today.<br />- Resigned to take a role focusing on React.js and
                                             become a
-                                            frontend specialist.
+                                            front end specialist.
                                         </div>
                                         <br />
                                     </li>
@@ -346,9 +359,7 @@ export default function CV() {
                                     <li>Professional development.</li>
                                     <li>Attaining agile maturity.</li>
                                     <li>Data visualisation with D3.js.</li>
-                                    <li>Remote work arrangement.</li>
                                     <li>Flexible hours / WL balance.</li>
-                                    <li>Workplace trust & understanding.</li>
                                 </ul>
                             </div>
                         </div>
