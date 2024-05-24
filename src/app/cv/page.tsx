@@ -143,7 +143,7 @@ export default function CV() {
 
                             {/* Work Experience */}
                             <div className="w-full p-2">
-                                <h3 className="text-lg text-center font-bold mb-3">Relevant Work Experience (4 Years Concurrent)</h3>
+                                <h3 className="text-lg text-center font-bold mb-3">Relevant Experience (4 Years)</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     {/* Software Engineer, Open Vantage */}
                                     <li>
