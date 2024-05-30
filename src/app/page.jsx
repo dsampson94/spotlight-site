@@ -108,18 +108,6 @@ function Resume() {
             end: '2023'
         },
         {
-            company: 'Lead React Developer (Team, Remote)',
-            title: 'Insurance Business Management App',
-            start: '2022',
-            end: '2023'
-        },
-        {
-            company: 'React Developer (Client, Remote)',
-            title: 'Landing Page / Smart Site',
-            start: '2022',
-            end: '2022'
-        },
-        {
             company: 'React Developer (Solo, Remote)',
             title: 'Agritech Management App',
             start: '2022',
@@ -171,7 +159,7 @@ export default async function Home() {
             <Container className="mt-9">
                 <div className="max-w-1xl">
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        by David Sampson with great tools
+                    Welcome
                     </p>
                     <div className="mt-6 flex gap-6">
                         <SocialLink
