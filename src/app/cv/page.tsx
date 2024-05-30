@@ -143,7 +143,7 @@ export default function CV() {
 
                             {/* Work Experience */}
                             <div className="w-full p-2">
-                                <h3 className="text-lg text-center font-bold mb-3">Relevant Experience (4 Years)</h3>
+                                <h3 className="text-lg text-center font-bold mb-3">Relevant Experience (3 Years)</h3>
                                 <ul className="list-disc text-sm text-gray-300 ml-4">
                                     {/* Software Engineer, Open Vantage */}
                                     <li>
@@ -199,36 +199,6 @@ export default function CV() {
                                             management
                                             concerns.
                                         </div>
-                                        <br />
-                                    </li>
-                                    {/* Lead React Developer, Cinque */}
-                                    <li>
-                                        <a href="https://www.cinque.co.za" target="_blank" rel="noopener noreferrer"
-                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                                            <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
-                                                Cinque</strong>
-                                        </a>
-                                        <div>- July 2022 - Dec 2023 (Part-time, Freelance, South Africa, Remote)</div>
-                                        <br />
-                                        <div >Projects:<br />- Business Manager/Tracker Web Front End
-                                            (Insurance)
-                                        </div>
-                                        <br />
-                                        <div>Tech Used:<br />-  React/TS, Redux Sagas, MUI, Azure DevOps, Git, D3.js, IntelliJ and more.
-                                        </div>
-                                        <br />
-                                        <div>Duties:
-                                            <ul>
-                                                <li>- Successful project rescue and intervention.</li>
-                                                <li>- API integration, regular development and frontend architecture implementation.
-                                                </li>
-                                                <li>- Worked extensively with git for version control, merge master.
-                                                </li>
-                                                <li>- Irregular standup and client meeting attendance.</li>
-                                            </ul>
-                                        </div>
-                                        <br />
-                                        <div>Outcome:<br />- Project completion.</div>
                                         <br />
                                     </li>
                                     {/* Lead React Developer, IrriCheck */}
