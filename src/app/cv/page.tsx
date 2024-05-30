@@ -34,7 +34,7 @@ export default function CV() {
                                 <li>Team player, leader, learner, teacher.</li>
                                 <li>Appreciates code conventions.</li>
                                 <li>Learns daily, works smart.</li>
-                                <li>Agile PM Enthusiast </li>
+                                <li>Agile PM enthusiast </li>
                                 <li>29 years old.</li>
                             </ul>
                         </div>
