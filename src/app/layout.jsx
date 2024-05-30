@@ -8,7 +8,7 @@ export const metadata = {
     title: {
         template: '%s',
         default:
-            'Tech Notes - Home'
+            'Home'
     },
     ogImage: '',
     alternates: {
