@@ -35,7 +35,6 @@ export default function CV() {
                                 <li>Appreciates code conventions.</li>
                                 <li>Learns daily, works smart.</li>
                                 <li>Agile PM enthusiast </li>
-                                <li>29 years old.</li>
                             </ul>
                         </div>
 
@@ -195,11 +194,6 @@ export default function CV() {
                                             </ul>
                                         </div>
                                         <br />
-                                        <div>Outcome:<br />- Resigned due to project viability and
-                                            management
-                                            concerns.
-                                        </div>
-                                        <br />
                                     </li>
                                     {/* Lead React Developer, IrriCheck */}
                                     <li>
@@ -231,11 +225,6 @@ export default function CV() {
                                                 </li>
                                                 <li>- Total ownership of the solution.</li>
                                             </ul>
-                                        </div>
-                                        <br />
-                                        <div>Outcome:<br />- Handover to new dev was successful.
-                                            <br />- Resigned to
-                                            take a role with more teamwork and collaboration.
                                         </div>
                                         <br />
                                     </li>
@@ -287,13 +276,6 @@ export default function CV() {
                                             </ul>
                                         </div>
                                         <br />
-                                        <div>Outcome:<br />- QIT Projects reached production and are
-                                            still in
-                                            use today.<br />- Resigned to take a role focusing on React.js and
-                                            become a
-                                            front end specialist.
-                                        </div>
-                                        <br />
                                     </li>
                                 </ul>
                             </div>
@@ -329,7 +311,6 @@ export default function CV() {
                                     <li>Professional development.</li>
                                     <li>Attaining agile maturity.</li>
                                     <li>Data visualisation with D3.js.</li>
-                                    <li>Flexible hours / WL balance.</li>
                                 </ul>
                             </div>
                         </div>
