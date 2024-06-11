@@ -32,11 +32,11 @@ function Article({ article }) {
   )
 }
 
-export const metadata = {
-  title: 'Articles',
-  description:
-    'All of my long-form thoughts on programming, leadership, agile, and more, collected in chronological order.',
-}
+// export const metadata = {
+//   title: 'Articles',
+//   description:
+//     'All of my long-form thoughts on programming, leadership, agile, and more, collected in chronological order.',
+// }
 
 export default async function ArticlesIndex() {
   let articles = await getAllArticles()
