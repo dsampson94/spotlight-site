@@ -43,20 +43,20 @@ export default async function Home() {
             <Container className="mt-20 md:mt-24">
                 <FeaturedProjects />
             </Container>
-            <Container className="mt-20 md:mt-18">
-                <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-                    <div className="flex flex-col gap-16 text-center">
-                        <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mt-6">
-                            🗒️ BLOG 🗒️
-                        </h2>
-                        { articles.map((article) => (
-                            <Article key={ article.slug } article={ article } />
-                        )) }
-                    </div>
-                    <div className="space-y-10 lg:pl-16 xl:pl-24">
+            <Container className="mt-20 md:mt-18 mx-22 md:mx-32">
+                {/*<div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">*/}
+                    {/*<div className="flex flex-col gap-16 text-center">*/}
+                    {/*    <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mt-6">*/}
+                    {/*        🗒️ BLOG 🗒️*/}
+                    {/*    </h2>*/}
+                    {/*    { articles.map((article) => (*/}
+                    {/*        <Article key={ article.slug } article={ article } />*/}
+                    {/*    )) }*/}
+                    {/*</div>*/}
+                    {/*<div className="space-y-10 lg:pl-16 xl:pl-24">*/}
                         <Resume />
-                    </div>
-                </div>
+                {/*    </div>*/}
+                {/*</div>*/}
             </Container>
         </>
     );
