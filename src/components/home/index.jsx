@@ -32,7 +32,7 @@ export function FeaturedProjects() {
                                     { project.name }
                                 </h3>
                             </a>
-                            <p className="text-md text-zinc-600 dark:text-zinc-400">
+                            <p className="text-md text-zinc-600 dark:text-zinc-400 mb-6">
                                 { project.description }
                             </p>
                         </div>

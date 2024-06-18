@@ -21,8 +21,8 @@ export default async function Home() {
                         Software lover and full time javascript builder.
                     </h1>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        I’m David, a software developer living between Cape Town and Johannesburg, I&apos;ve been working professionally
-                        on business software for the past 3 years. Welcome to the digital home of all my public tech creations.
+                        Hi there! I’m David, a software developer living between Cape Town and Johannesburg and I&apos;ve been working professionally
+                        on business software for the past 3 years. Welcome to my site!
                     </p>
                     <div className="mt-6 flex gap-6">
                         <SocialLink
@@ -40,15 +40,18 @@ export default async function Home() {
                     </div>
                 </div>
             </Container>
-            <Container className="mt-2 md:mt-12">
+            <Container className="mt-20 md:mt-24">
                 <FeaturedProjects />
             </Container>
-            <Container className="mt-24 md:mt-28">
+            <Container className="mt-20 md:mt-18">
                 <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-                    <div className="flex flex-col gap-16">
-                        { articles.map((article) => (
-                            <Article key={ article.slug } article={ article } />
-                        )) }
+                    <div className="flex flex-col gap-16 text-center">
+                        <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mt-6">
+                            🗒️ BLOG 🗒️
+                        </h2>
+                            { articles.map((article) => (
+                                <Article key={ article.slug } article={ article } />
+                            )) }
                     </div>
                     <div className="space-y-10 lg:pl-16 xl:pl-24">
                         <Resume />
