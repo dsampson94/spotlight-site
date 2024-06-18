@@ -49,9 +49,9 @@ export default async function Home() {
                         <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mt-6">
                             🗒️ BLOG 🗒️
                         </h2>
-                            { articles.map((article) => (
-                                <Article key={ article.slug } article={ article } />
-                            )) }
+                        { articles.map((article) => (
+                            <Article key={ article.slug } article={ article } />
+                        )) }
                     </div>
                     <div className="space-y-10 lg:pl-16 xl:pl-24">
                         <Resume />

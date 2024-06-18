@@ -39,7 +39,7 @@ export function FeaturedProjects() {
                         <iframe
                             src={ project.iframe }
                             title={ project.name }
-                            className="w-full h-96 rounded-md border-0"
+                            className="w-full h-[500px] rounded-md border-0"
                         />
                     </div>
                 )) }

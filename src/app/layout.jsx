@@ -8,7 +8,7 @@ export const metadata = {
     title: {
         template: '%s',
         default:
-            'Home'
+            'David Sampson'
     },
     ogImage: '',
     alternates: {
