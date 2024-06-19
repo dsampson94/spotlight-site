@@ -145,7 +145,7 @@ export function Resume() {
             company: 'Software Engineer (Team, Hybrid)',
             title: 'Real Estate Management App',
             start: '2023',
-            end: '2023'
+            end: '2024'
         },
         {
             company: 'React Developer (Solo, Remote)',
