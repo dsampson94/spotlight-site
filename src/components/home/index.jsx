@@ -155,7 +155,7 @@ export function Resume() {
         },
         {
             company: 'Junior Software Developer (Team, In Office)',
-            title: `Healthcare Quality Improvement App,\nPrinting Services Management App`,
+            title: `Healthcare Quality Improvement App & Printing Services Management App`,
             start: '2020',
             end: '2022'
         }
