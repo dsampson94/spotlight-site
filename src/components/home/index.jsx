@@ -6,6 +6,12 @@ import { Button } from '@/components/Button';
 export function FeaturedProjects() {
     const projects = [
         {
+            name: 'ApplicaAi',
+            description: 'Job Application Tracker & CV - Job Spec Ai Comparison',
+            link: 'https://www.applicaai.com/',
+            iframe: 'https://www.applicaai.com/'
+        },
+        {
             name: 'Yacht Chef Pro',
             description: 'Ordering & menu tracker for yacht chefs',
             link: 'https://yacht-chef-pro-web-server.vercel.app/',
@@ -18,31 +24,31 @@ export function FeaturedProjects() {
             <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mb-12">
                 🚀 ACTIVE PROJECTS 🚀
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-16">
-                { projects.map((project, index) => (
-                    <div key={ index } className="space-y-4 mx-auto w-full max-w-3xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+                {projects.map((project, index) => (
+                    <div key={index} className="space-y-4 mx-auto w-full max-w-3xl">
                         <div>
                             <a
-                                href={ project.link }
+                                href={project.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-white-500 hover:underline cursor-pointer"
                             >
                                 <h3 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
-                                    { project.name }
+                                    {project.name}
                                 </h3>
                             </a>
                             <p className="text-md text-zinc-600 dark:text-zinc-400 mb-6">
-                                { project.description }
+                                {project.description}
                             </p>
                         </div>
                         <iframe
-                            src={ project.iframe }
-                            title={ project.name }
+                            src={project.iframe}
+                            title={project.name}
                             className="w-full h-[500px] rounded-md border-0"
                         />
                     </div>
-                )) }
+                ))}
             </div>
         </div>
     );

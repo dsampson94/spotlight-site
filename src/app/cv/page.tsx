@@ -199,7 +199,7 @@ export default function CV() {
                                     <li>
                                         <a href="https://www.irricheck.co.za/" target="_blank" rel="noopener noreferrer"
                                            style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                                            <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
+                                             <strong style={{ textDecoration: 'underline' }}>Lead React Developer -
                                                 IrriCheck</strong>
                                         </a>
                                         <div>- April 2022 - July 2023 (Full-time, Remote, South Africa)</div>
