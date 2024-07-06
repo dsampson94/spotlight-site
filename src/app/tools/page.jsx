@@ -24,7 +24,7 @@ function Tool({ title, href, children }) {
 }
 
 export const metadata = {
-  title: 'Tools',
+  title: 'David Sampson - Tools',
   description: 'Software I use, gadgets I love, and other things I recommend.',
 }
 

@@ -3,6 +3,12 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
+
+export const metadata = {
+    title: 'David Sampson - Notes',
+    description: 'My public note taking',
+}
+
 function Article({ article }) {
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">

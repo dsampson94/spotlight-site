@@ -107,7 +107,7 @@ function LinkIcon(props) {
 }
 
 export const metadata = {
-  title: 'Projects',
+  title: 'David Sampson - Projects',
   description: 'Things I’ve made trying to put my dent in the universe.',
 };
 
