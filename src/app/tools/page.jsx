@@ -4,22 +4,22 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 function ToolsSection({ children, ...props }) {
   return (
-    <Section {...props}>
-      <ul role="list" className="space-y-16">
-        {children}
-      </ul>
-    </Section>
+      <Section {...props}>
+        <ul role="list" className="space-y-16">
+          {children}
+        </ul>
+      </Section>
   )
 }
 
 function Tool({ title, href, children }) {
   return (
-    <Card as="li">
-      <Card.Title as="h3" href={href}>
-        {title}
-      </Card.Title>
-      <Card.Description>{children}</Card.Description>
-    </Card>
+      <Card as="li">
+        <Card.Title as="h3" href={href}>
+          {title}
+        </Card.Title>
+        <Card.Description>{children}</Card.Description>
+      </Card>
   )
 }
 
@@ -32,63 +32,44 @@ export default function Tools() {
   return (
       <SimpleLayout
           title="Software I use, gadgets I love, and other things I recommend."
-          intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="Legion 5 Pro Gen 7 (16GB, AMD)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it through
-              with our various launch simulations.
+            <Tool title="Lenovo Legion 5i Pro (Gen 6) & Lenovo Legion 5 (Gen 6)">
+              The Lenovo Legion 5i Pro has been a game-changer for me. It's powerful, silent, and they almost never crash even after years of use, making them the backbone of my development setup. I'm so in love with my Legion that I actually got a second one!
             </Tool>
             <Tool title="2x Samsung CR50 FHD Curved Monitors">
-              The only display on the market if you want something HiDPI and
-              bigger than 27”. When you’re working at planetary scale, every pixel
-              you can get counts.
+              These monitors offer a superb HiDPI display experience. At 27”+, they provide the real estate I need for multitasking and working at scale, ensuring every pixel is sharp and clear.
             </Tool>
-            <Tool title="Logitech K380 Multi-device Bluetooth Keyboard - Black ">
-              They don’t make keyboards the way they used to. I buy these any time
-              I see them go up for sale and keep them in storage in case I need
-              parts or need to retire my main.
+            <Tool title="Logitech K380 Multi-device Bluetooth Keyboard - Black">
+              The Logitech K380 is a reliable workhorse. Its multi-device capability allows seamless switching between different setups, which is useful.
             </Tool>
             <Tool title="Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
+              This mouse isn't just for gaming; it's my magic wand for productivity. The customizable gestures make navigating through tasks feel great.
             </Tool>
             <Tool title="Unbranded Pro Gaming Chair - Black with White Trim">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+              An absolute must for long sessions.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="IntelliJ v2023">
-              I don’t care if it’s missing all of the fancy IDE features everyone
-              else relies on, Sublime Text is still the best text editor ever
-              made.
+            <Tool title="IntelliJ v2023 & Webstorm v2024">
+              IntelliJ and Webstorm are my go-to IDEs. Their robust feature sets and seamless integrations boost my productivity and speed up my work.
             </Tool>
-            <Tool title="Github">
-              I’m honestly not even sure what features I get with this that aren’t
-              just part of the macOS Terminal but it’s what I use.
+            <Tool title="Vercel & MongoDB">
+              Vercel and MongoDB are the dynamic duo for my personal projects. Vercel's deployment capabilities and MongoDB's flexible database management streamline my development process.
             </Tool>
-            <Tool title="AWS">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
+            <Tool title="Git Bash">
+              Git Bash is my terminal of choice. It integrates well with my workflow, providing a familiar and powerful command-line experience.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become our
-              virtual whiteboard for the entire company. Never would have expected
-              the collaboration features to be the real hook.
+              Figma has evolved from a design tool to our virtual whiteboard. Its collaboration features have revolutionized how my team brainstorms and iterates on ideas.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
             <Tool title="Notes">
-              It’s not the newest kid on the block but it’s still the fastest. The
-              Sublime Text of the application launcher world.
+              Notes is a trusty old companion in my productivity toolkit. It's fast, simple, and incredibly efficient for jotting down ideas and keeping track of tasks.
             </Tool>
           </ToolsSection>
         </div>

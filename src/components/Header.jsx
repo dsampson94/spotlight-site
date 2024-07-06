@@ -9,7 +9,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
+import avatarImage from '@/images/avatar.png'
 
 function CloseIcon(props) {
   return (
@@ -127,8 +127,8 @@ function MobileNavigation(props) {
                 {/*<MobileNavItem href="/about">About</MobileNavItem>*/}
                 <MobileNavItem href="/">Home</MobileNavItem>
                 <MobileNavItem href="/notes">Notes</MobileNavItem>
-                {/*<MobileNavItem href="/projects">Projects</MobileNavItem>*/}
-                {/*<MobileNavItem href="/tools">Tools</MobileNavItem>*/}
+                <MobileNavItem href="/projects">Projects</MobileNavItem>
+                <MobileNavItem href="/tools">Tools</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -168,8 +168,8 @@ function DesktopNavigation(props) {
         {/*<NavItem href="/about">About</NavItem>*/}
         <NavItem href="/">Home</NavItem>
         <NavItem href="/notes">Notes</NavItem>
-        {/*<NavItem href="/projects">Projects</NavItem>*/}
-        {/*<NavItem href="/tools">Tools</NavItem>*/}
+        <NavItem href="/projects">Projects</NavItem>
+        <NavItem href="/tools">Tools</NavItem>
       </ul>
     </nav>
   )
