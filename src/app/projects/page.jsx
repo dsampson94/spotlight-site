@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: 'Cavi',
-    role: 'Next.js Developer',
+    role: 'Next Developer',
     description: 'Brand management site built with Next.js, Vercel, TailwindCSS, Typescript.',
     media: [
       { type: 'image', url: '/cavi.png' },
