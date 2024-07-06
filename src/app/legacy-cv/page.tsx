@@ -21,7 +21,7 @@ export default function LegacyCV() {
 
                         <div class="content__left__container__upper">
                             <div class="content__left__container__upper-photo">
-                                <img style='object-fit: cover' src="/headshot.jpg" alt="d"/>
+                                <img style='object-fit: cover' src="/src/images/avatar.jpg" alt="d"/>
                             </div>
                             <div class="content__left__container__upper__info">
                                 <h1 class="content__left__container__upper__info-title">David Sampson</h1>

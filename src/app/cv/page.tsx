@@ -19,7 +19,7 @@ export default function CV() {
                         <div>
                             <div className="flex flex-col items-center">
                                 <div className="w-32 h-32 mb-4">
-                                    <img src="/headshot.jpg"
+                                    <img src="/src/images/avatar.jpg"
                                          alt="David Sampson"
                                          className="w-32 h-32 rounded-full object-cover border-4 border-gray-600 mb-4 shadow-xl" />
                                 </div>
