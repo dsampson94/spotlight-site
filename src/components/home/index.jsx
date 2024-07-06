@@ -39,7 +39,7 @@ export function FeaturedProjects() {
     return (
         <div className="text-center">
             <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mb-12">
-                🚀 ACTIVE PROJECTS 🚀
+                🚀 ACTIVE SIDE PROJECTS 🚀
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {projects.map((project, index) => (
@@ -62,7 +62,7 @@ export function FeaturedProjects() {
                                 {project.technologies.map((tech, i) => (
                                     <span
                                         key={i}
-                                        className={`${getRandomColor()} bg-opacity-50 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-md`}
+                                        className={`${getRandomColor()} bg-opacity-50 text-white px-2 py-1 rounded-full text-xs font-semibold shadow-md`}
                                     >
                                         {tech}
                                     </span>

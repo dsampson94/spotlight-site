@@ -1,17 +1,13 @@
 import dynamic from 'next/dynamic';
 import { Container } from '@/components/Container';
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons';
-import { getAllArticles } from '@/lib/articles';
-import { Article, FeaturedProjects, Resume, SocialLink } from '@/components/home';
+import { FaGithub, FaLinkedin, FaFileAlt, FaLink } from 'react-icons/fa'; // Importing icons from react-icons
+import { FeaturedProjects } from '@/components/home';
 
 const ConfettiEffect = dynamic(() => import('@/components/ConfettiEffect'), {
     ssr: false
 });
 
-export default async function Home() {
-
-    let articles = (await getAllArticles()).slice(0, 10);
-
+export default function Home() {
     return (
         <>
             <ConfettiEffect />
@@ -21,42 +17,60 @@ export default async function Home() {
                         Software lover and full time javascript builder.
                     </h1>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        Hi there! I’m David, a software developer living between Cape Town and Johannesburg and I&apos;ve been working professionally
+                        Hi there! I’m David, a software developer living between Cape Town and Johannesburg and
+                        I&apos;ve been working professionally
                         on business software for the past 3 years. Welcome to my site!
                     </p>
                     <div className="mt-6 flex gap-6">
-                        <SocialLink
-                            href="https://github.com/dsampson94"
-                            aria-label="GitHub"
-                            target="_blank"
-                            icon={ GitHubIcon }
-                        />
-                        <SocialLink
-                            href="https://www.linkedin.com/in/dsampsondev/"
-                            target="_blank"
-                            aria-label="LinkedIn"
-                            icon={ LinkedInIcon }
-                        />
+                        <div className="relative group">
+                            <a
+                                href="https://github.com/dsampson94"
+                                aria-label="GitHub"
+                                target="_blank"
+                                className="group"
+                            >
+                                <FaGithub className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+                            </a>
+                            <span className="absolute top-full left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">GitHub</span>
+                        </div>
+                        <div className="relative group">
+                            <a
+                                href="https://www.linkedin.com/in/dsampsondev/"
+                                target="_blank"
+                                aria-label="LinkedIn"
+                                className="group"
+                            >
+                                <FaLinkedin className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+                            </a>
+                            <span className="absolute top-full left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">LinkedIn</span>
+                        </div>
+                        <div className="relative group">
+                            <a
+                                href="/David-Sampson-CV.pdf"
+                                download="David Sampson - CV.pdf"
+                                aria-label="Download CV PDF"
+                                className="group"
+                            >
+                                <FaFileAlt className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+                            </a>
+                            <span className="absolute top-full left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Download CV PDF</span>
+                        </div>
+                        <div className="relative group">
+                            <a
+                                href="/cv"
+                                target="_blank"
+                                aria-label="View Web CV"
+                                className="group"
+                            >
+                                <FaLink className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+                            </a>
+                            <span className="absolute top-full left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">View Web CV</span>
+                        </div>
                     </div>
                 </div>
             </Container>
             <Container className="mt-20 md:mt-24">
                 <FeaturedProjects />
-            </Container>
-            <Container className="mt-20 md:mt-18">
-                {/*<div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">*/}
-                    {/*<div className="flex flex-col gap-16 text-center">*/}
-                    {/*    <h2 className="text-2xl font-bold text-zinc-800 dark:text-zinc-100 mt-6">*/}
-                    {/*        🗒️ BLOG 🗒️*/}
-                    {/*    </h2>*/}
-                    {/*    { articles.map((article) => (*/}
-                    {/*        <Article key={ article.slug } article={ article } />*/}
-                    {/*    )) }*/}
-                    {/*</div>*/}
-                    {/*<div className="space-y-10 lg:pl-16 xl:pl-24">*/}
-                        <Resume />
-                {/*    </div>*/}
-                {/*</div>*/}
             </Container>
         </>
     );
