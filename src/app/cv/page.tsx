@@ -38,7 +38,7 @@ export default function CV() {
                             </ul>
                         </div>
 
-                        <p className="pt-6 text-center text-sm font-medium italic sm:pt-0 sm:pb-8">
+                        <p className="pt-12 text-center text-sm font-medium italic sm:pt-0 sm:pb-8">
                             {'"Make it work, make it right, make it fast."'}
                         </p>
 
