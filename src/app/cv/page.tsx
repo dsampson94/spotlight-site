@@ -140,6 +140,28 @@ export default function CV() {
                                 </div>
                             </div>
 
+                            {/* Education */}
+                            <div className="w-full lg:w-1/2 p-2">
+                                <h3 className="text-lg text-center font-bold mb-3">Education</h3>
+                                <ul className="list-disc text-sm text-gray-300 ml-4">
+                                    <li>
+                                        <strong>Java Web Programming</strong><br />
+                                        <a href="https://www.vzap.co.za/" target="_blank" rel="noopener noreferrer"
+                                           style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                                            Van Zyl & Pritchard - Sept. 2020 - Mar. 2021
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <strong>Bachelors Degree (Commerce)</strong>
+                                        <div>University of Pretoria - Jan. 2013 - Dec. 2016</div>
+                                    </li>
+                                    <li>
+                                        <strong>Matric Certificate</strong>
+                                        <div>Marist Brothers College - Dec 2012</div>
+                                    </li>
+                                </ul>
+                            </div>
+
                             {/* Professional Interests */}
                             <div className="w-full lg:w-1/2 p-2">
                                 <h3 className="text-lg text-center font-bold mb-3">Professional Interests</h3>
