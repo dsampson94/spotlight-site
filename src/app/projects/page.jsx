@@ -15,25 +15,6 @@ const projects = [
     ],
   },
   {
-    name: 'Tano',
-    role: 'Lead React Developer',
-    description: 'Insurance Management Front End built with React.js, Azure, MUI, Typescript, Redux Saga.',
-    media: [
-      { type: 'image', url: '/tano.jpg' },
-      { type: 'image', url: '/tano.png' },
-      { type: 'video', url: '/tanovid.mp4' },
-    ],
-  },
-  {
-    name: 'Cavi',
-    role: 'Next Developer',
-    description: 'Brand management site built with Next.js, Vercel, TailwindCSS, Typescript.',
-    media: [
-      { type: 'image', url: '/cavi.png' },
-      { type: 'video', url: '/cavivid.mp4' },
-    ],
-  },
-  {
     name: 'Pulse',
     role: 'React Developer',
     description: 'AgriTech Management Front End built with React.js, TailwindCSS, Typescript, Redux Saga.',
@@ -44,11 +25,22 @@ const projects = [
     ],
   },
   {
-    name: 'Pumbaa',
-    role: 'Junior Software Developer',
-    description: 'CRM Front End built with React.js, SCSS, JavaScript, Redux Saga.',
+    name: 'Tano',
+    role: 'Lead React Developer',
+    description: 'Insurance Management Front End built with React.js, Azure, MUI, Typescript, Redux Saga.',
     media: [
-      { type: 'image', url: '/pumbaa.jpg' },
+      { type: 'image', url: '/tano.jpg' },
+      { type: 'image', url: '/tano.png' },
+      { type: 'video', url: '/tanovid.mp4' },
+    ],
+  },
+  {
+    name: 'QIT Tracker Web',
+    role: 'Junior Software Developer',
+    description: 'Quality Improvement Web Front End built with React.js, SCSS, JavaScript, Azure.',
+    media: [
+      { type: 'image', url: '/qit1.jpg' },
+      { type: 'image', url: '/qit2.jpg' },
     ],
   },
   {
@@ -58,12 +50,20 @@ const projects = [
     media: [],
   },
   {
-    name: 'QIT Tracker Web',
+    name: 'Pumbaa',
     role: 'Junior Software Developer',
-    description: 'Quality Improvement Web Front End built with React.js, SCSS, JavaScript, Azure.',
+    description: 'CRM Front End built with React.js, SCSS, JavaScript, Redux Saga.',
     media: [
-      { type: 'image', url: '/qit1.jpg' },
-      { type: 'image', url: '/qit2.jpg' },
+      { type: 'image', url: '/pumbaa.jpg' },
+    ],
+  },
+  {
+    name: 'Cavi',
+    role: 'Next.js Developer',
+    description: 'Brand management site built with Next.js, Vercel, TailwindCSS, Typescript.',
+    media: [
+      { type: 'image', url: '/cavi.png' },
+      { type: 'video', url: '/cavivid.mp4' },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const metadata = {
 export default function Projects() {
   return (
       <SimpleLayout
-          title="Professional Projects I have had the fortune of working on, in chronological order."
+          title="Professional Projects I have had the fortune of working on."
           // intro="Trying to put my dent in the universe."
       >
         <ul role="list" className="space-y-16">
