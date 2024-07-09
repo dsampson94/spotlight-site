@@ -4,7 +4,7 @@ import { SimpleLayout } from '@/components/SimpleLayout';
 
 const projects = [
   {
-    name: 'Realist',
+    name: 'Realist - Asset Manager (Real Estate)',
     role: 'Software Engineer',
     description: 'Real Estate Management App built with React.js, AWS, tRPC, Styled Components, Typescript, Nx.',
     media: [
@@ -15,8 +15,8 @@ const projects = [
     ],
   },
   {
-    name: 'Pulse',
-    role: 'React Developer',
+    name: 'Pulse - Productivity Manager (Agritech) ',
+    role: 'React.js Developer',
     description: 'AgriTech Management Front End built with React.js, TailwindCSS, Typescript, Redux Saga.',
     media: [
       { type: 'image', url: '/irric.png' },
@@ -25,8 +25,8 @@ const projects = [
     ],
   },
   {
-    name: 'Tano',
-    role: 'Lead React Developer',
+    name: 'TANO - Business Tracker (Insurance)',
+    role: 'Lead React.js Developer',
     description: 'Insurance Management Front End built with React.js, Azure, MUI, Typescript, Redux Saga.',
     media: [
       { type: 'image', url: '/tano.jpg' },
@@ -35,7 +35,7 @@ const projects = [
     ],
   },
   {
-    name: 'QIT Tracker Web',
+    name: 'QIT - Quality Improvement Tracker Web (Healthcare) ',
     role: 'Junior Software Developer',
     description: 'Quality Improvement Web Front End built with React.js, SCSS, JavaScript, Azure.',
     media: [
@@ -44,13 +44,13 @@ const projects = [
     ],
   },
   {
-    name: 'QIT Tracker Mobile',
+    name: 'QIT - Quality Improvement Tracker Mobile (Healthcare) ',
     role: 'Junior Software Developer',
     description: 'Quality Improvement Mobile Front End built with React Native, CSS, JavaScript, SQLite',
     media: [],
   },
   {
-    name: 'Pumbaa',
+    name: 'Pumbaa - CRM (Printing) ',
     role: 'Junior Software Developer',
     description: 'CRM Front End built with React.js, SCSS, JavaScript, Redux Saga.',
     media: [
@@ -58,7 +58,7 @@ const projects = [
     ],
   },
   {
-    name: 'Cavi',
+    name: 'CAVI Brands - Smart Landing Page (Brand) ',
     role: 'Next.js Developer',
     description: 'Brand management site built with Next.js, Vercel, TailwindCSS, Typescript.',
     media: [
@@ -67,7 +67,7 @@ const projects = [
     ],
   },
   {
-    name: 'Bakery System',
+    name: 'Bakery System - College Project',
     role: 'Junior Software Developer',
     description: 'Bakery Management App built with Java, CSS, Java Server Pages, PostgresSQL as a college project.',
     media: [
