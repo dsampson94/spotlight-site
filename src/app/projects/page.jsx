@@ -19,9 +19,9 @@ const projects = [
     role: 'React.js Developer',
     description: 'AgriTech Management Front End built with React.js, TailwindCSS, Typescript, Redux Saga.',
     media: [
+      { type: 'video', url: '/irrivid.mp4' },
       { type: 'image', url: '/irric.png' },
       { type: 'image', url: '/irricheck.png' },
-      { type: 'video', url: '/irrivid.mp4' },
     ],
   },
   {
@@ -29,9 +29,9 @@ const projects = [
     role: 'Lead React.js Developer',
     description: 'Insurance Management Front End built with React.js, Azure, MUI, Typescript, Redux Saga.',
     media: [
+      { type: 'video', url: '/tanovid.mp4' },
       { type: 'image', url: '/tano.jpg' },
       { type: 'image', url: '/tano.png' },
-      { type: 'video', url: '/tanovid.mp4' },
     ],
   },
   {
@@ -62,8 +62,8 @@ const projects = [
     role: 'Next.js Developer',
     description: 'Brand management site built with Next.js, Vercel, TailwindCSS, Typescript.',
     media: [
-      { type: 'image', url: '/cavi.png' },
       { type: 'video', url: '/cavivid.mp4' },
+      { type: 'image', url: '/cavi.png' },
     ],
   },
   {
