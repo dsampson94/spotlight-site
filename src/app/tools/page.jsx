@@ -44,8 +44,8 @@ export default function Tools() {
             <Tool title="Logitech K380 Multi-device Bluetooth Keyboard - Black">
               The Logitech K380 is a reliable workhorse. Its multi-device capability allows seamless switching between different setups, which is useful.
             </Tool>
-            <Tool title="Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse">
-              This mouse isn&apos;t just for gaming; it&apos;s my magic wand for productivity. The customizable gestures make navigating through tasks feel great.
+            <Tool title="Razer Basilisk V3 X HyperSpeed Wireless Mouse">
+              This mouse isn&apos;t just for gaming, The customizable gestures and multi-device capability make navigating through screens efficient and easy.
             </Tool>
             <Tool title="Unbranded Pro Gaming Chair - Black with White Trim">
               An absolute must for long sessions.
@@ -64,7 +64,7 @@ export default function Tools() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              Figma has evolved from a design tool to our virtual whiteboard. Its collaboration features have revolutionized how my team brainstorms and iterates on ideas.
+              Figma has evolved from a design tool to my virtual whiteboard. Its collaboration features have revolutionized how my team brainstorms and iterates on ideas.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
