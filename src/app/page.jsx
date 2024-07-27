@@ -70,7 +70,7 @@ export default function Home() {
                 </div>
             </Container>
             <Container className="mt-20 md:mt-24">
-                <FeaturedProjects />
+                {/*<FeaturedProjects />*/}
             </Container>
         </>
     );
