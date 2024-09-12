@@ -4,6 +4,25 @@ import { SimpleLayout } from '@/components/SimpleLayout';
 
 const projects = [
   {
+    name: 'Convo Freaks - Online Education (SaaS)',
+    role: 'Lead Next.js Developer',
+    description: 'SaaS App build done with Next.js, Tailwind, Typescript, Appointlet, Stripe.',
+    media: [
+      { type: 'image', url: '/convofreaks.png' },
+      { type: 'image', url: '/convofre.png' },
+      { type: 'video', url: '/cfv.mp4' },
+    ],
+  },
+  {
+    name: 'Crabaride - Ride Share (SaaS)',
+    role: 'Next.js Engineer',
+    description: 'SaaS App UI rework done with Next.js, Tailwind, Typescript.',
+    media: [
+      { type: 'image', url: '/crabb.png' },
+      { type: 'video', url: '/crab1.mp4' },
+    ],
+  },
+  {
     name: 'Realist - Asset Manager (Real Estate)',
     role: 'Software Engineer',
     description: 'Real Estate Management App built with React.js, AWS, tRPC, Styled Components, Typescript, Nx.',
