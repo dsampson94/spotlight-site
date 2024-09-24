@@ -6,18 +6,18 @@ import {Button} from '@/components/Button';
 export function FeaturedProjects() {
     const projects = [
         {
-            name: 'ApplicaAi',
-            description: 'Job Application Tracker & CV - Job Spec Ai Comparison',
-            link: 'https://www.applicaai.com/',
-            iframe: 'https://www.applicaai.com/',
-            technologies: ['Next.js', 'MongoDB', 'Prisma.js' , 'Zustand' , 'Tailwind CSS']
+            name: 'AWS Quiz Tool',
+            description: 'AWS Certification Educational Tool',
+            link: 'https://www.awsquiztool.com/',
+            iframe: 'https://www.awsquiztool.com/',
+            technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'GPT-4', 'Vercel']
         },
         {
-            name: 'Yacht Chef Pro',
-            description: 'Ordering & menu tracker for yacht chefs',
-            link: 'https://yacht-chef-pro-web-server.vercel.app/',
-            iframe: 'https://yacht-chef-pro-web-server.vercel.app/',
-            technologies: ['Next.js', 'PostgresSQL', 'Prisma.js', 'NextAuth.js', 'Tailwind CSS']
+            name: 'Invoisseur Free Invoice Maker',
+            description: 'Free Invoice Maker Tool',
+            link: 'https://www.invoisseur-free-invoice-maker.com/',
+            iframe: 'https://www.invoisseur-free-invoice-maker.com/',
+            technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel', 'MongoDB']
         }
     ];
 

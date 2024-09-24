@@ -17,9 +17,10 @@ export default function Home() {
                         Software lover and full time javascript builder.
                     </h1>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        Hi there! I’m David, a software developer living between Cape Town and Johannesburg and
-                        I&apos;ve been working professionally
-                        on business software for the past 3 years. Welcome to my site!
+                        Hi there! I’m David and welcome to my software development shrine. I am currently based in Johannesburg, South Africa and
+                        have been working professionally on business software for the past 4 years. At this point in my career I find myself applying my JavaScript skills as a contractor on various projects
+                        and am currently trying to move my career into a cloud / devops direction. As a technical partner I bring a wealth of experience and hope to one day start my own consultancy of some sort.
+                        Hit me up for opportunities or just to roast my site. Enjoy!
                     </p>
                     <div className="mt-6 flex gap-6">
                         <div className="relative group">
@@ -70,7 +71,7 @@ export default function Home() {
                 </div>
             </Container>
             <Container className="mt-20 md:mt-24">
-                {/*<FeaturedProjects />*/}
+                <FeaturedProjects />
             </Container>
         </>
     );

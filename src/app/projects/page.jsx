@@ -6,7 +6,7 @@ const projects = [
   {
     name: 'Convo Freaks - Online Education (SaaS)',
     role: 'Lead Next.js Developer',
-    description: 'SaaS App build done with Next.js, Tailwind, Typescript, Appointlet, Stripe.',
+    description: 'SaaS App build done with Next.js, Vercel, Tailwind, Typescript, Appointlet, Stripe.',
     media: [
       { type: 'image', url: '/convofreaks.png' },
       { type: 'image', url: '/convofre.png' },
@@ -102,9 +102,9 @@ function MediaGallery({ media }) {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
         {media.map((item, index) => (
             item.type === 'image' ? (
-                <img key={index} src={item.url} alt={`media-${index}`} className="w-full h-48 object-cover rounded-lg" />
+                <img key={index} src={item.url} alt={`media-${index}`} className="w-full h-full object-cover rounded-lg" />
             ) : (
-                <video key={index} controls className="w-full h-48 object-cover rounded-lg">
+                <video key={index} controls className="w-full h-full object-cover rounded-lg">
                   <source src={item.url} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
