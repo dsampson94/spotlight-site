@@ -42,6 +42,7 @@ export default function CV() {
                             {'"Make it work, make it right, make it fast."'}
                         </p>
 
+
                         {/* Contact Information */}
                         <div className="mt-6 text-center text-gray-300">
                             <h3 className="text-lg font-bold mb-3">Contact</h3>
