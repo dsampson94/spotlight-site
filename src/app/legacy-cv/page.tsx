@@ -227,13 +227,6 @@ export default function LegacyCV() {
                                         <li>
                                             Data Visualisation with D3.js.
                                         </li>
-                                        <li>
-                                            <b>Remote</b> work arrangement.
-                                        </li>  
-\t\t\t\t\t\t\t\t\t\t<li>
-                                            Building out my new <a href="https://www.reactsecretsource.com/d3/synchronizedlinecharts" class="anchor-link">site</a> 
-                                            <small>- (Next.js)</small>
-                                        </li>\t\t\t\t\t\t\t\t\t\t
                                     </ul>
                                 </div>
                             </div>
@@ -575,7 +568,6 @@ export default function LegacyCV() {
 
     .content__right__container__inf__inner-list ul {
         margin-top: 0;
-        margin-left: -10%;
     }
 
     @media (max-width: 500px) {
@@ -752,7 +744,6 @@ export default function LegacyCV() {
     }
 
     .content__right__container__skills-lower__inner ul {
-        margin-left: -1%;
     }
 
     .content__right__container__skills-lower__inner ul {

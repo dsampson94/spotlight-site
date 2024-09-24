@@ -32,7 +32,7 @@ export default function LatestVideos() {
   }, []);
 
   return (
-      <SimpleLayout title="My Latest Video Creations" intro="Retrieved automatically using YouTube Data API v3">
+      <SimpleLayout title="Latest Video Creations" intro="Retrieved automatically using YouTube Data API v3">
         <ul role="list" className="space-y-80 mb-32">
           {videos.map((video) => (
               <Card as="li" key={video.id.videoId} className="space-y-4">
