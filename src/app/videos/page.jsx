@@ -33,7 +33,7 @@ export default function LatestVideos() {
 
   return (
       <SimpleLayout title="Latest Video Creations" intro="Retrieved automatically using YouTube Data API v3">
-        <ul role="list" className="space-y-80 mb-32">
+        <ul role="list" className="space-y-12 md:space-y-80 md:mb-32">
           {videos.map((video) => (
               <Card as="li" key={video.id.videoId} className="space-y-4">
                 <h2 className="text-lg font-semibold text-zinc-800 dark:text-zinc-100">
@@ -42,7 +42,7 @@ export default function LatestVideos() {
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
                   {video.snippet.description}
                 </p>
-                <div className="w-full h-64">
+                <div className="w-full md:h-64 ">
                   <iframe
                       width="100%"
                       height="200%"

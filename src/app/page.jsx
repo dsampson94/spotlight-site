@@ -21,18 +21,20 @@ export default function Home() {
                     </h1>
 
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        Hi there! I’m David and welcome to my software development shrine. I am currently based in
+                        Hi there! I’m David and welcome to my site. I&apos;m based in
                         Johannesburg, South Africa and
-                        have been working professionally on business software for the past 4 years. As a technical partner,
-                        I bring a wealth of experience and have all sorts of ideas.
-                        Hit me up for enquiries or just to roast my site. Enjoy.
+                        have been working professionally on business software for the past 4 years. As a technical
+                        partner, I bring a wealth of experience and am always working on various projects.
+                        Hit me up for enquiries or just to roast my site.
                     </p>
+
                     {/* GitHub commit map positioned top-right */}
                     <img
                         src="https://ghchart.rshah.org/dsampson94"
                         alt="GitHub commit chart"
-                        className="w-3/12 mt-3 -ml-2 filter dark:invert-[85%] dark:contrast-[80%]"
+                        className="w-full sm:w-6/12 md:w-3/12 mt-3 -ml-2 filter dark:invert-[85%] dark:contrast-[80%]"
                     />
+
                     <div className="mt-6 flex gap-6">
                         {/* GitHub, LinkedIn, CV icons */}
                         <div className="relative group">
@@ -46,7 +48,7 @@ export default function Home() {
                                     className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"/>
                             </a>
                             <span
-                                className="absolute top-full left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Download CV PDF</span>
+                                className="absolute top-full ml-10 sm:ml-0 left-1/2 mb-2 w-max -translate-x-1/2 translate-y-2 bg-gray-900 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Download CV PDF</span>
                         </div>
                         <div className="relative group">
                             <a
