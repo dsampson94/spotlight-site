@@ -29,11 +29,11 @@ export default function Home() {
                     </p>
 
                     {/* GitHub commit map positioned top-right */}
-                    <img
-                        src="https://ghchart.rshah.org/dsampson94"
-                        alt="GitHub commit chart"
-                        className="w-full sm:w-6/12 md:w-3/12 mt-3 -ml-2 filter dark:invert-[85%] dark:contrast-[80%]"
-                    />
+                    {/*<img*/}
+                    {/*    src="https://ghchart.rshah.org/dsampson94"*/}
+                    {/*    alt="GitHub commit chart"*/}
+                    {/*    className="w-full sm:w-6/12 md:w-3/12 mt-3 -ml-2 filter dark:invert-[85%] dark:contrast-[80%]"*/}
+                    {/*/>*/}
 
                     <div className="mt-6 flex gap-6">
                         {/* GitHub, LinkedIn, CV icons */}

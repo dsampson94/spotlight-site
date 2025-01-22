@@ -12,13 +12,13 @@ export function FeaturedProjects() {
             iframe: 'https://www.awsquiztool.com/',
             technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'GPT-4', 'Vercel']
         },
-        {
-            name: 'Invoisseur Free Invoice Maker',
-            description: 'Free Invoice Maker Tool',
-            link: 'https://www.invoisseur-free-invoice-maker.com/',
-            iframe: 'https://www.invoisseur-free-invoice-maker.com/',
-            technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel', 'MongoDB']
-        }
+        // {
+        //     name: 'Invoisseur Free Invoice Maker',
+        //     description: 'Free Invoice Maker Tool',
+        //     link: 'https://www.invoisseur-free-invoice-maker.com/',
+        //     iframe: 'https://www.invoisseur-free-invoice-maker.com/',
+        //     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel', 'MongoDB']
+        // }
     ];
 
     const colors = [
